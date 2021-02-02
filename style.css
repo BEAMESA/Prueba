@@ -1,0 +1,49 @@
+html {
+    background-color:whitesmoke;
+}
+
+li {
+    font-size: 20px;
+    padding-left: 50px;
+    color: red;
+}
+
+.title {
+    background-color: seagreen;
+}
+
+#protocolo {
+    background-color: silver;
+}
+
+.caja1 {
+    /* Propiedades del tamaño y color de la caja */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.caja3 {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+
+#mainBox {
+    /* Grosor del borde y color */
+    border: 5px solid darkblue;
+    display: flex;
+    /* Tamaño de la caja */
+    height: 800px;
+    /* Disposición de las cajas */
+    flex-direction: column;
+    /* Elejir el tipo de justificado */
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
